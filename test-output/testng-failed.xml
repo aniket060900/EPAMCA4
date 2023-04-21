@@ -5,7 +5,6 @@
     <classes>
       <class name="org.example.AppTest">
         <methods>
-          <include name="close"/>
           <include name="setup"/>
           <include name="googleTest"/>
         </methods>

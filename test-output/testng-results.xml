@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-21T10:37:49 IST" name="Default Suite" finished-at="2023-04-21T10:37:59 IST" duration-ms="10358">
+  <suite started-at="2023-04-21T11:56:03 IST" name="Default Suite" finished-at="2023-04-21T11:56:26 IST" duration-ms="22783">
     <groups>
     </groups>
-    <test started-at="2023-04-21T10:37:49 IST" name="EPAMCA4" finished-at="2023-04-21T10:37:59 IST" duration-ms="10358">
+    <test started-at="2023-04-21T11:56:03 IST" name="EPAMCA4" finished-at="2023-04-21T11:56:26 IST" duration-ms="22783">
       <class name="org.example.AppTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.AppTest@49d98dc5]" started-at="2023-04-21T10:37:49 IST" name="setup" finished-at="2023-04-21T10:37:51 IST" duration-ms="2753" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.AppTest@3003697]" started-at="2023-04-21T11:56:03 IST" name="setup" finished-at="2023-04-21T11:56:18 IST" duration-ms="14844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="googleTest()[pri:0, instance:org.example.AppTest@49d98dc5]" started-at="2023-04-21T10:37:51 IST" name="googleTest" finished-at="2023-04-21T10:37:59 IST" duration-ms="7520" status="PASS">
+        <test-method signature="googleTest()[pri:0, instance:org.example.AppTest@3003697]" started-at="2023-04-21T11:56:18 IST" name="googleTest" finished-at="2023-04-21T11:56:26 IST" duration-ms="7865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest -->

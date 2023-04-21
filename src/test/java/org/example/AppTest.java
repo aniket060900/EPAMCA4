@@ -8,11 +8,11 @@ import org.testng.annotations.Test;
 public class AppTest{
     ChromeDriver driver = new ChromeDriver();
     @BeforeClass
-    void setup()
-    {
+    void setup() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         driver.get("http://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
         driver.manage().window().maximize();
+        Thread.sleep(10000);
     }
     @Test
     public void googleTest() throws InterruptedException
