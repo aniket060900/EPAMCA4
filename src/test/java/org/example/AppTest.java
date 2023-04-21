@@ -32,9 +32,9 @@ public class AppTest{
         driver.findElement(By.xpath("//body/div[1]/div[4]/div[1]/div[1]/form[1]/input[5]")).click();
         Thread.sleep(1000);
     }
-    @AfterClass
-    void close()
-    {
-        driver.close();
-    }
+//    @AfterClass
+//    void close()
+//    {
+//        driver.close();
+//    }
 }
